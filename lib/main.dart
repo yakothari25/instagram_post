@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_posts/posts/1st/Elevated_Container.dart';
+import 'package:instagram_posts/posts/2nd/Neumorphism_button.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ElevatedContainer()
+      home: NeumorphisomButton()
     );
   }
 }
