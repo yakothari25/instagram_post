@@ -25,6 +25,7 @@ class CoustomButton extends StatefulWidget {
     this.fontSize,
     this.color,
     this.textStyle = kButtonTextStyle,
+
     this.borderRadius = 16,
   }) : super(key: key);
   @override
@@ -41,6 +42,13 @@ class _CoustomButtonState extends State<CoustomButton> {
         color: widget.color,
         gradient: widget.backgroundgradient,
         borderRadius: BorderRadius.all(Radius.circular(widget.borderRadius)),
+        boxShadow: [
+          BoxShadow(
+            color: kbuttonShadow.withOpacity(0.2),
+            offset: Offset(0, 15),
+            blurRadius: 30,
+          )
+        ],
       ),
       child: FlatButton(
         onPressed: widget.onPressed,

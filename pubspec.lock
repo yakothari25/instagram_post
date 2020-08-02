@@ -123,6 +123,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.4"
+  round_ui_kit:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "96621c1d98315d5c028ce93ab0690afc1647edfa"
+      url: "https://github.com/yakothari25/round_ui_kit"
+    source: git
+    version: "0.0.1"
   sky_engine:
     dependency: transitive
     description: flutter

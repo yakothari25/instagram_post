@@ -23,7 +23,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  # round_ui_kit:
+  #   path: D:/androidProject/round_ui_kit/
+  round_ui_kit:
+        git: https://github.com/yakothari25/round_ui_kit
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -68,6 +71,9 @@ flutter:
     - family: Poppins
       fonts:
         - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        
         
   #         style: italic
   #   - family: Trajan Pro
