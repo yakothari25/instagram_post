@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_posts/posts/7th/display.dart';
+import 'package:instagram_posts/posts/8th/display.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Uikit(),
+      home: HomePage(),
     );
   }
 }
