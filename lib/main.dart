@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_posts/posts/6th/display.dart';
+import 'package:instagram_posts/posts/7th/display.dart';
 
 void main() {
   runApp(MyApp());

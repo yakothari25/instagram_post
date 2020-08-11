@@ -53,6 +53,7 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/images/svg/
+    - lib/posts/7th/document.svg
 
   #   - images/a_dot_ham.jpeg
 
